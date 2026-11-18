@@ -7,6 +7,7 @@ body { margin: 0; background: #fff; font-family: "Inter", Arial, sans-serif; }
 .pv-main { overflow-x: hidden; }
 .pv-foot { padding: 24px clamp(20px, 4vw, 80px) 40px; color: #52636e; font-size: 14px; border-top: 1px solid #dfe5e2; }
 .pv-foot a { color: #0c7394; }
-.afr .pv-off { opacity: .45; cursor: not-allowed; }
+.afr .afr-seasons .pv-off { flex: none; padding: 14px 10px; font-size: 15px; font-weight: 600; color: #c8d3da; font-family: var(--afr-display); opacity: .5; cursor: default; text-align: center; }
+@media (min-width: 901px) { .afr .afr-seasons .pv-off { padding: 9px 4px; } }
 .afr .pv-name { font-weight: inherit; }
 .afr .afr-evlist a.pv-on { color: var(--afr-ink); font-weight: 800; background: var(--afr-lime); }
