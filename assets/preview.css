@@ -1,0 +1,12 @@
+
+body { margin: 0; background: #fff; font-family: "Inter", Arial, sans-serif; }
+.pv-top { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; padding: 14px clamp(20px, 4vw, 80px); background: #c8d946; color: #0a1f2e; font-size: 14px; }
+.pv-top a { color: #0a1f2e; text-decoration: none; font-family: "Montserrat", Arial, sans-serif; }
+.pv-top strong { font-weight: 900; letter-spacing: .02em; }
+.pv-top span { font-weight: 600; opacity: .8; }
+.pv-main { overflow-x: hidden; }
+.pv-foot { padding: 24px clamp(20px, 4vw, 80px) 40px; color: #52636e; font-size: 14px; border-top: 1px solid #dfe5e2; }
+.pv-foot a { color: #0c7394; }
+.afr .pv-off { opacity: .45; cursor: not-allowed; }
+.afr .pv-name { font-weight: inherit; }
+.afr .afr-evlist a.pv-on { color: var(--afr-ink); font-weight: 800; background: var(--afr-lime); }
